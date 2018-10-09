@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Andrei Poleschuk</title>
+        <style>
+@font-face {
+      font-family: 'fontello';
+      src: url('./font/fontello.eot?2829707');
+      src: url('./font/fontello.eot?2829707#iefix') format('embedded-opentype'),
+           url('./font/fontello.woff?2829707') format('woff'),
+           url('./font/fontello.ttf?2829707') format('truetype'),
+           url('./font/fontello.svg?2829707#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animation.css">
+    </head>
+    <body>
+        <header>
+            <section class='header-menu'>
+                <section class='header-items'><a href="#library"> Andrei Poleschuk</a></div>
+                    <div class='header-nav-desktop'>
+                        <a href="#project">Projects</a>
+                        <a href="#english">Level of English</a>
+                        <a href="#service">Military service</a>
+                        <a href="#education">Education</a>  
+                        <a href="#experience">Work experience</a>                        
+                    </div>
+                </section> 
+        </header>
+        <section class="about-me">
+            <div class="contact">
+                <div class="foto"></div>
+                <span>Andrei Poleschuk </span>
+                <span>27 years old – 11-06-1991</span>
+                <span>Junior Javascript Developer</span>
+                <div>
+                    <a href="https://github.com/RenardBY/" target="_blank"><i class="linked-icon ">&#xe805;</i></a>
+                    <a href="https://vk.com/id224424781" target="_blank"><i class="linked-icon ">&#xe804;</i></a>
+                    <a href="" target="_blank"><i class="linked-icon ">&#xf1d8;</i></a>
+                    <a href="" target="_blank"><i class="linked-icon ">&#xe806;</i></a>
+                    <a href="" target="_blank"><i class="linked-icon ">&#xe803;</i></a>                 
+                </div>
+            </div>
+            <section class='menu-items'>
+                <a href="#project" class='menu-item'>
+                    <i class="demo-icon">&#xe800;</i>
+                    <p>Projects</p>
+                </a>
+                <div class='menu-item'>
+                    <i class="demo-icon">&#xf1d7;</i>
+                    <p>Level of English</p>                    
+                </div>
+                <a href="#service" class='menu-item'>
+                    <i class="demo-icon">&#xe801;</i>
+                    <p>Military service</p>                    
+                </a>
+                <a href="#education" class='menu-item'>
+                    <i class="demo-icon">&#xf19d;</i>
+                    <p>Education</p> 
+                </a>
+                <a href="#experience" class='menu-item'>
+                    <i class="demo-icon">&#xe802;</i>
+                    <p>Work experience</p> 
+                </a>
+            </section>
+        </section>
+        <section class="sections" id='project'>
+            <h1 class='title'>Projects</h1>
+            <div class='section-description-project'>
+                <span  class='font-header'>The site for managing household devices in a smart home. </span>
+                <span>This is an introductory task of the School of Interface Development (the Yandex curriculum, the analogue of the Rolling Scopes school). According to requirements of the task I have developed a site based on the proposed layout. </span>
+                <span>In my project, device information (device name, device status, device type) is stored in a json file. The site is populated??? set up using the data in the json file. Each device has settings window which is implemented as a pop-up window with animation. The settings window has one html template, the form of which depends on a device type as well as on its name and status. The site has an adaptive design. </span>
+                </div>
+            <div class='section-description-project'>
+                <span  class='font-header'>The algorithm for scheduling an inclusion of household devices in a smart house. </span>
+                <span>This is an introductory task of the Interface Development School. Following the task, I have developed an algorithm which would make up the schedule for switching on/off household devices. The algorithm considers hourly rates, permissible load on the network, consumption of electrical appliances, various modes of how to operate devices (day or night), and duration of the device. A more detailed description of the principle of the proposed algorithm is available on readme.md of my repository on GitHub'e</span>  
+            </div>
+        </section>
+        <section class="sections" id='english'>
+            <h1 class='title'>Level of English</h1>
+            <div class='section-description'>
+                <span>
+                Current level is B1. I am perfectly aware of 
+                the importance of English language in 
+                contemporary world and I try to practice English
+                 as much as I can.
+                </span>
+            </div>
+        </section>
+        <section class="sections" id='service'>
+            <h1 class='title'>Military service</h1>
+            <div class='section-description'>
+            <span>Member of the reserves, not active during peacetime.</span>
+        </section>
+        <section class="sections" id='education'>
+            <h1 class='title'>Education</h1>
+            <div class='section-description'>
+                <div class='section-description-info'>
+                    <div class='text-part'>
+                        <span  class='font-header'>Belarusian State Academy of Telecommunications 2008 - 2012</span>
+                    <span>Faculty of Telecommunication </span>
+                    <span>Specialized in: radio systems, radio and television. </span>
+                    </div>
+                    <div  class='text-part'>
+                               <span  class='font-header'>Belarusian State Academy of Telecommunications 2014 - 2018 </span>
+                    <span>Faculty of Correspondence and Distance Education </span>
+                    <span>Specialized in: Information and Communication Technologies (info-communications network)</span> 
+                    </div>                
+                </div>
+            <img src="img/education.jpg"  width="200" height="200" alt="education">
+        </div>
+        </section>
+        <section class="sections" id='experience'>
+            <h1 class='title'>Work experience</h1>
+            <div class='section-description'>
+                <div class='section-description-info'>
+                    <div  class='text-part'>
+                              <span class='font-header'>2013-2015 Second National TV Channel, </span>
+                    <span>Telecommunications technician</span>  
+                    </div>
+                    <span  class='font-header'>2015-2018 Second National TV Channel,</span>
+                    <span>Engineer of television equipment. </span>
+                </div>
+                <img src="img/work.png"  width="200" height="200" alt="education">
+            </div>
+        </section>
+        <footer></footer>
+</body>
+</html>
